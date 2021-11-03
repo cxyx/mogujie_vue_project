@@ -1,0 +1,15 @@
+/* 背景色
+[z-normal] {
+  z-index : 1;
+}
+[z-top] {
+  z-index : 1000;
+}
+...
+------------------------*/
+
+@each $style in (normal $index-normal,top $index-top,popper $index-popper ){
+  [z-#{nth($style,1)}]{
+    z-index: #{nth($style,2)};
+  }
+}

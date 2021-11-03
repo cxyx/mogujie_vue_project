@@ -1,0 +1,26 @@
+{
+  "name": "mogujie",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "mockjs": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "router-view": "^1.1.7",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "vant": "^3.2.6",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/cli-service": "^4.5.14",
+    "sass-resources-loader": "^2.2.4",
+    "vite": "^2.6.13"
+  }
+}
